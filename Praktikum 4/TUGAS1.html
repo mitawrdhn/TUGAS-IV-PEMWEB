@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hide").click(function(){
+				$("#foto").hide();
+			});
+			$("#show").click(function(){
+				$("#foto").show();
+			});
+			$("#hide1").click(function(){
+				$("#foto1").hide();
+			});
+			$("#show1").click(function(){
+				$("#foto1").show();
+			});
+			$("#hide2").click(function(){
+				$("#foto2").hide();
+			});
+			$("#show2").click(function(){
+				$("#foto2").show();
+			});
+		});
+			</script>
+			<style type="text/css">
+				.foto {
+					width: auto;
+					height: 500;
+				}
+			</style>
+			
+</head>
+<body>
+</body>
+<body>
+		<FORM>
+		<TABLE>
+			<tr><td>
+	<input id="hide" type="button" value ="Sembunyikan"></td>
+	<td>
+		<input id="show" type="button" value="Tampilkan"></td></tr>
+		<tr><td>
+		<input id="hide1" type="button" value="Sembunyikan"></td><td>
+		<input id="show1" type="button" value="Tampilkan"></td>
+	</tr>
+	<tr><td>
+		<input id="hide2" type="button" value="Sembunyikan"></td><td>
+		<input id="show2" type="button" value="Tampilkan"></td>
+	</tr>
+</table>
+</form>
+	<img src="foto.jpeg" id="foto" height="auto" width="250" float="auto"/>
+	<img src="foto1.jpg" id="foto1" height="auto" width="250" float="auto"/>
+	<img src="foto2.jpg" id="foto2" height="auto" width="250" float="auto"/>
+</div>
+</body>
+</html>

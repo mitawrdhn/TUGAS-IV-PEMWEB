@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+				.kotak {
+					height: 100px;width: 100px;background-color: yellow;}
+				.kotak1 {
+					height: 100px;width: 100px;background-color: yellow;}
+				.kotak2 {
+					height: 100px;width: 100px;background-color: yellow;}
+				.kotak3 {
+					height: 100px;width: 100px;background-color: yellow;}
+				.merah {
+					height: 100px;width: 100px;background-color: red;}
+				.merah1 {
+					height: 100px;width: 100px;background-color: red;}
+				.merah2 {
+					height: 100px;width: 100px;background-color: red;}
+				.merah3 {
+					height: 100px;width: 100px;background-color: red;}
+				div{
+					float: left;margin: 10px;
+				}
+			</style></head>
+<body><p>klik 2x pada setiap kotak untuk mengubah warnanya</p>
+			<div class="kotak" id="rubah"></div>
+			<div class="kotak1" id="rubah1"></div>
+			<div class="kotak2" id="rubah2"></div>
+			<div class="kotak3" id="rubah3"></div>
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.kotak').on('dblclick',function(){
+				$('#rubah').addClass('merah');});
+			$('.kotak1').on('dblclick',function(){
+				$('#rubah1').addClass('merah1');});
+			$('.kotak2').on('dblclick',function(){
+				$('#rubah2').addClass('merah2');});
+			$('.kotak3').on('dblclick',function(){
+				$('#rubah3').addClass('merah3');});});</script></body></html>
